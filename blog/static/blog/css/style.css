@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(75, 75, 75);
+    color: antiquewhite;
+
+}
+
+.jumbo-color{
+    background-color: white;
+    color: black;
+    
+}
+
+.font-weight{
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: rgb(177, 168, 168);
+}

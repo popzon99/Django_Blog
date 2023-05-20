@@ -1,0 +1,37 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+ 
+<section id="about" class="about mt-5" >
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2 mt-5" data-aos="fade-left" data-aos-delay="100">
+          <img src="{% static  'blog/images/blog2.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content fst-italic">
+          <h3>Welcome to My MiniBlog!</h3> <p> At My MiniBlog, we believe in the power of words and the importance of sharing thoughts, ideas, and experiences. Our platform is built on Django, a robust web framework, to provide you with a seamless and secure environment where you can read, update, edit, and delete your blogs. We prioritize your privacy and ensure that your user details are completely safe through Django's robust authorization system.</p> 
+          <p class="fst-italic">Features we offer:</p>
+          <p ><li class="fst-italic"><i class="bi bi-check-circle"></i>
+            User-Friendly Interface: We have designed our website with a clean and intuitive interface to make your blogging experience enjoyable. Whether you are a beginner or an experienced writer, our user-friendly design ensures easy navigation and quick access to all the essential features.
+        </li></p>
+          <ul>
+            <p ><li class="fst-italic"><i class="bi bi-check-circle"></i>Blog Management: Creating and managing your blogs is hassle-free on our platform. Once you create an account and log in, you will have access to your personalized dashboard. From there, you can effortlessly create new blog posts, edit existing ones, or delete posts that you no longer wish to keep.</li></p>
+            <li class="fst-italic"><i class="bi bi-check-circle"></i> Publishing Online: We understand the importance of sharing your thoughts with the world. With My MiniBlog, you can publish your blogs online with just a few clicks. Once published, your blogs will be accessible to a wide audience, allowing you to connect with like-minded individuals and receive feedback on your writing.</li>
+            <li class="fst-italic"><i class="bi bi-check-circle"></i>User Authentication and Security: Your privacy and security are of utmost importance to us. We utilize Django's robust authentication system to ensure that only authorized users have access to their accounts. This includes features such as secure password hashing, protection against common vulnerabilities, and protection against unauthorized access.</li>
+          </ul>
+          <p class="fst-italic">
+            Separate Dashboards: We provide each user with a separate dashboard, ensuring a personalized experience tailored to your specific needs. Your dashboard serves as a control center where you can manage your blogs, update your profile information, and explore additional features available exclusively to you.
+          </p>
+          <p class="fst-italic">
+            Seamless Updates: We are continuously working to improve your experience on My MiniBlog. As we strive to provide you with the best possible platform, we regularly release updates and enhancements. You can expect new features, improved performance, and enhanced security as part of our ongoing commitment to excellence.
+
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ {% endblock content %}
